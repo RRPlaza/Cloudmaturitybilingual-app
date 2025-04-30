@@ -36,5 +36,499 @@
         "nivel_madurez": "Optimized"
       }
     ]
+  },
+  {
+    "id": 2,
+    "pregunta_es": "¿Están los procedimientos de gestión de riesgos formalmente definidos?",
+    "pregunta_en": "Are risk management procedures formally defined?",
+    "tipo_de_riesgo": "cumplimiento",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "pregunta_es": "¿Existe un plan de continuidad de negocio y recuperación ante desastres?",
+    "pregunta_en": "Is there a business continuity and disaster recovery plan in place?",
+    "tipo_de_riesgo": "tecnologico",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "pregunta_es": "¿Se monitorean continuamente las cargas de trabajo en la nube?",
+    "pregunta_en": "Are cloud workloads continuously monitored?",
+    "tipo_de_riesgo": "ciberseguridad",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "pregunta_es": "¿Se realizan auditorías de cumplimiento regularmente?",
+    "pregunta_en": "Are compliance audits conducted regularly?",
+    "tipo_de_riesgo": "cumplimiento",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "pregunta_es": "¿Los informes financieros son automatizados y seguros?",
+    "pregunta_en": "Are financial reports automated and secure?",
+    "tipo_de_riesgo": "financiero",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pregunta_es": "¿Se inventarían y clasifican los activos en la nube?",
+    "pregunta_en": "Are cloud assets inventoried and classified?",
+    "tipo_de_riesgo": "tecnologico",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "pregunta_es": "¿Se capacita a los empleados en mejores prácticas de ciberseguridad y nube?",
+    "pregunta_en": "Are employees trained on cloud and cybersecurity best practices?",
+    "tipo_de_riesgo": "ciberseguridad",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "pregunta_es": "¿Se rastrean y revisan los incidentes de seguridad?",
+    "pregunta_en": "Are security incidents tracked and reviewed?",
+    "tipo_de_riesgo": "ciberseguridad",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "pregunta_es": "¿El control de acceso está basado en el mínimo privilegio?",
+    "pregunta_en": "Is access control based on the principle of least privilege?",
+    "tipo_de_riesgo": "ciberseguridad",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "pregunta_es": "¿Se aplican estándares de cifrado a los datos sensibles?",
+    "pregunta_en": "Are encryption standards applied to sensitive data?",
+    "tipo_de_riesgo": "ciberseguridad",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "pregunta_es": "¿Se evalúa regularmente el riesgo de servicios prestados por terceros contratistas?",
+    "pregunta_en": "Are third-party contractor risks regularly assessed?",
+    "tipo_de_riesgo": "proveedores",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "pregunta_es": "¿Se corrigen vulnerabilidades dentro de un SLA definido?",
+    "pregunta_en": "Are vulnerabilities remediated within a defined SLA?",
+    "tipo_de_riesgo": "ciberseguridad",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "pregunta_es": "¿Los líderes ejecutivos están comprometidos con la gobernanza de ciberseguridad?",
+    "pregunta_en": "Are executive leaders engaged with cybersecurity governance?",
+    "tipo_de_riesgo": "gobierno",
+    "opciones": [
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
   }
 ]
