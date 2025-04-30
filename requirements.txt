@@ -1,3 +1,10 @@
-streamlit
+
 pandas
+scikit-learn
+xgboost
+streamlit
 plotly
+matplotlib
+seaborn
+fpdf
+joblib
