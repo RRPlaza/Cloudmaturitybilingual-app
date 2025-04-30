@@ -1,205 +1,40 @@
-# Al inicio del Streamlit
-idioma = st.radio("Select Language / Seleccione Idioma:", ("English", "Español"))
-
-for pregunta in preguntas:
-    if idioma == "English":
-        st.subheader(f"Question {pregunta['id']}: {pregunta['pregunta_en']}")
-        opciones = [op['texto_en'] for op in pregunta['opciones']]
-    else:
-        st.subheader(f"Pregunta {pregunta['id']}: {pregunta['pregunta_es']}")
-        opciones = [op['texto_es'] for op in pregunta['opciones']]
-    
-    seleccion = st.selectbox("Select an option / Seleccione una opción", opciones, key=pregunta['id'])
-    # (resto del procesamiento igual)
 [
   {
     "id": 1,
-    "dominio": "Gobernanza y Políticas",
-    "pregunta": "¿Su organización mantiene implementadas y actualizadas políticas de ciberseguridad que cubren las áreas críticas definidas por estándares internacionales (NIST, ISO, COBIT)?",
+    "pregunta_es": "¿Existe una política formal de ciberseguridad documentada y aprobada?",
+    "pregunta_en": "Is there a formal documented and approved cybersecurity policy?",
+    "tipo_de_riesgo": "ciberseguridad",
     "opciones": [
-      {"texto": "Todas las áreas críticas cubiertas", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Cubiertas 6–9 áreas", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Cubiertas 3–5 áreas", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "1–2 áreas prácticas informales", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "Nada formalizado", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo de cumplimiento"
-  },
-  {
-    "id": 2,
-    "dominio": "Gestión de Riesgos",
-    "pregunta": "¿Están los procedimientos de gestión de riesgos formalmente definidos?",
-    "opciones": [
-      {"texto": "Completamente definidos, documentados y revisados", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Definidos pero con revisiones irregulares", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Parcialmente definidos", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Procedimientos informales, no documentados", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "No existen procedimientos", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo operativo"
-  }
-]
-[
-  {
-    "id": 3,
-    "dominio": "Continuidad de Negocio",
-    "pregunta": "¿Existe un plan de continuidad de negocio y recuperación ante desastres?",
-    "opciones": [
-      {"texto": "Plan probado regularmente, actualizado, cubre todos los escenarios", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Plan general, cubre escenarios principales, pruebas esporádicas", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Plan parcial, falta cobertura de escenarios o actualización", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Solo ideas o documentos informales", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "No existe plan documentado", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo de continuidad"
-  },
-  {
-    "id": 4,
-    "dominio": "Operaciones Cloud",
-    "pregunta": "¿Se monitorean continuamente las cargas de trabajo en la nube?",
-    "opciones": [
-      {"texto": "Monitoreo integral, automatizado (rendimiento, seguridad, disponibilidad)", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Monitoreo activo pero parcial", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Monitoreo manual o parcial no automatizado", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Recopilación básica de logs sin monitoreo continuo", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "No se monitorean las cargas de trabajo", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo operacional en nube"
-  },
-  {
-    "id": 5,
-    "dominio": "Cumplimiento y Auditoría",
-    "pregunta": "¿Se realizan auditorías de cumplimiento regularmente?",
-    "opciones": [
-      {"texto": "Auditorías programadas completas (anual/semestral)", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Auditorías regulares pero de alcance limitado", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Auditorías esporádicas, no cubren todos los ámbitos", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Auditorías reactivas, no programadas", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "No se realizan auditorías", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo de cumplimiento"
-  }
-]
-[
-  {
-    "id": 6,
-    "dominio": "Finanzas y Automatización",
-    "pregunta": "¿Los informes financieros son automatizados y seguros?",
-    "opciones": [
-      {"texto": "Automatizados, cifrados y con controles de acceso, cumplen regulaciones", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Automatizados y seguros pero no cubren todos los procesos", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Automatización parcial con seguridad limitada", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Informes manuales con algunos controles de seguridad", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "Informes manuales sin controles de seguridad", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo financiero"
-  },
-  {
-    "id": 7,
-    "dominio": "Gestión de Activos Cloud",
-    "pregunta": "¿Se inventarían y clasifican los activos en la nube?",
-    "opciones": [
-      {"texto": "Inventario automatizado y clasificado, actualizado regularmente", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Inventario activo pero no completamente automatizado", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Inventario parcial, sin clasificación formal", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Identificación informal sin estructura", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "Sin inventario ni clasificación de activos", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo de visibilidad"
-  },
-  {
-    "id": 8,
-    "dominio": "Capacitación y Cultura de Seguridad",
-    "pregunta": "¿Se capacita a los empleados en mejores prácticas de ciberseguridad y nube?",
-    "opciones": [
-      {"texto": "Programa formal y continuo con evaluación y segmentación por roles", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Capacitaciones regulares pero generales", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Capacitación esporádica u orientada a onboarding", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Capacitación informal y no estructurada", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "No existe capacitación en ciberseguridad", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo humano / cultura organizacional"
-  }
-]
-[
-  {
-    "id": 9,
-    "dominio": "Gestión de Incidentes",
-    "pregunta": "¿Se rastrean y revisan los incidentes de seguridad?",
-    "opciones": [
-      {"texto": "Incidentes rastreados, clasificados, revisados y documentados con planes de mejora", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Incidentes rastreados pero con revisión parcial o inconsistente", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Solo se rastrean los más graves sin procesos formales", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Registros aislados e informales", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "No se rastrean ni revisan incidentes", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo de respuesta"
-  },
-  {
-    "id": 10,
-    "dominio": "Control de Acceso",
-    "pregunta": "¿El control de acceso está basado en el mínimo privilegio?",
-    "opciones": [
-      {"texto": "Accesos definidos por mínimo privilegio, con RBAC/ABAC y revisión regular", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Aplicación general de mínimo privilegio, sin revisiones frecuentes", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Algunas áreas aplican mínimo privilegio sin formalidad", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Accesos otorgados sin política clara ni estructura", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "Accesos amplios sin restricciones", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo de acceso"
-  },
-  {
-    "id": 11,
-    "dominio": "Protección de Datos",
-    "pregunta": "¿Se aplican estándares de cifrado a los datos sensibles?",
-    "opciones": [
-      {"texto": "Cifrado completo en tránsito y reposo con gestión segura de claves", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Cifrado aplicado pero con limitaciones en cobertura o claves", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Solo algunos sistemas críticos están cifrados", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Cifrado manual o ad-hoc sin políticas formales", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "No se cifran datos sensibles", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo de confidencialidad"
-  }
-]
-[
-  {
-    "id": 12,
-    "dominio": "Gestión de Proveedores",
-    "pregunta": "¿Se evalúa regularmente el riesgo de servicios prestados por terceros contratistas?",
-    "opciones": [
-      {"texto": "Evaluación formal y periódica de todos los proveedores críticos", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Evaluación limitada a proveedores principales o no regular", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Evaluación solo en fase de contratación, sin seguimiento", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Evaluaciones ad-hoc sin proceso estructurado", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "No se evalúan proveedores ni servicios contratados", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo de terceros"
-  },
-  {
-    "id": 13,
-    "dominio": "Gestión de Vulnerabilidades",
-    "pregunta": "¿Se corrigen vulnerabilidades dentro de un SLA definido?",
-    "opciones": [
-      {"texto": "Correcciones dentro de SLA formal y monitoreado", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Corrección regular con algunos retrasos", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Remediación sin tiempos definidos ni seguimiento", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Corrección ad-hoc sin formalización", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "No hay proceso de corrección de vulnerabilidades", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo técnico"
-  },
-  {
-    "id": 14,
-    "dominio": "Gobernanza Ejecutiva",
-    "pregunta": "¿Los líderes ejecutivos están comprometidos con la gobernanza de ciberseguridad?",
-    "opciones": [
-      {"texto": "Compromiso pleno, con roles definidos y supervisión estratégica", "valor": 5, "nivel_madurez": "Alta Madurez"},
-      {"texto": "Apoyo general pero con participación limitada", "valor": 4, "nivel_madurez": "Madurez Moderada"},
-      {"texto": "Conciencia sin involucramiento estructurado", "valor": 3, "nivel_madurez": "Madurez Incipiente"},
-      {"texto": "Delegación operativa sin liderazgo activo", "valor": 2, "nivel_madurez": "Madurez Muy Baja"},
-      {"texto": "Sin participación de líderes ejecutivos en seguridad", "valor": 1, "nivel_madurez": "Madurez Crítica"}
-    ],
-    "tipo_de_riesgo": "Riesgo de gobernanza"
+      {
+        "valor": 1,
+        "texto_es": "No existe",
+        "texto_en": "Does not exist",
+        "nivel_madurez": "Ad Hoc"
+      },
+      {
+        "valor": 2,
+        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_en": "Exists but not formalized or updated",
+        "nivel_madurez": "Opportunistic"
+      },
+      {
+        "valor": 3,
+        "texto_es": "Existe y está parcialmente implementada",
+        "texto_en": "Exists and partially implemented",
+        "nivel_madurez": "Repeatable"
+      },
+      {
+        "valor": 4,
+        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_en": "Formalized and reviewed periodically",
+        "nivel_madurez": "Managed"
+      },
+      {
+        "valor": 5,
+        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_en": "Fully aligned to international standards and actively managed",
+        "nivel_madurez": "Optimized"
+      }
+    ]
   }
 ]
