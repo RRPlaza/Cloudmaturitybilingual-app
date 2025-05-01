@@ -13,8 +13,8 @@
       },
       {
         "valor": 2,
-        "texto_es": "Existe pero no está formalizada ni actualizada",
-        "texto_en": "Exists but not formalized or updated",
+        "texto_es": "Existe pero no está formalizada ni actualizada, operatividad no documentada",
+        "texto_en": "Exists but not formalized or updated, undocumented operation",
         "nivel_madurez": "Opportunistic"
       },
       {
@@ -25,14 +25,14 @@
       },
       {
         "valor": 4,
-        "texto_es": "Formalizada, revisada periódicamente",
-        "texto_en": "Formalized and reviewed periodically",
+        "texto_es": "Formalizadas y cubiertas las áreas críticas en un 75%, algunas políticas están pendientes de actualización",
+        "texto_en": "Critical areas have been formalized and covered by 75%; some policies are pending updating.",
         "nivel_madurez": "Managed"
       },
       {
         "valor": 5,
-        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
-        "texto_en": "Fully aligned to international standards and actively managed",
+        "texto_es": "Sí, cubrimos todas las áreas críticas, totalmente alineados a estándares internacionales",
+        "texto_en": "Yes, we cover all critical areas, fully aligned to international standards.",
         "nivel_madurez": "Optimized"
       }
     ]
@@ -45,14 +45,14 @@
     "opciones": [
       {
         "valor": 1,
-        "texto_es": "No existe",
-        "texto_en": "Does not exist",
+        "texto_es": "Gestión de riesgos inexistente",
+        "texto_en": "Non-existent risk management",
         "nivel_madurez": "Ad Hoc"
       },
       {
         "valor": 2,
-        "texto_es": "Existe pero no está formalizada ni actualizada",
-        "texto_en": "Exists but not formalized or updated",
+        "texto_es": "Existen procesos empiricos no formalizados ni actualizados",
+        "texto_en": "Empirical processes exists but not formalized or updated",
         "nivel_madurez": "Opportunistic"
       },
       {
@@ -63,14 +63,14 @@
       },
       {
         "valor": 4,
-        "texto_es": "Formalizada, revisada periódicamente",
-        "texto_en": "Formalized and reviewed periodically",
+        "texto_es": "Procesos existentes pero sin una disciplina formal de mantenimiento",
+        "texto_en": "Existing processes but without a formal maintenance discipline",
         "nivel_madurez": "Managed"
       },
       {
         "valor": 5,
-        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
-        "texto_en": "Fully aligned to international standards and actively managed",
+        "texto_es": "Procesos de gestión de riesgos formalizados, actualizados y auditados",
+        "texto_en": "Formalized, updated, and audited risk management processes",
         "nivel_madurez": "Optimized"
       }
     ]
@@ -89,25 +89,25 @@
       },
       {
         "valor": 2,
-        "texto_es": "Existe pero no está formalizada ni actualizada",
+        "texto_es": "Existe pero no está formalizado ni actualizado",
         "texto_en": "Exists but not formalized or updated",
         "nivel_madurez": "Opportunistic"
       },
       {
         "valor": 3,
-        "texto_es": "Existe y está parcialmente implementada",
+        "texto_es": "Existe y está parcialmente implementado",
         "texto_en": "Exists and partially implemented",
         "nivel_madurez": "Repeatable"
       },
       {
         "valor": 4,
-        "texto_es": "Formalizada, revisada periódicamente",
+        "texto_es": "Formalizado y revisado periódicamente",
         "texto_en": "Formalized and reviewed periodically",
         "nivel_madurez": "Managed"
       },
       {
         "valor": 5,
-        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
+        "texto_es": "Totalmente alineado a estándares internacionales y gestionada",
         "texto_en": "Fully aligned to international standards and actively managed",
         "nivel_madurez": "Optimized"
       }
@@ -121,32 +121,32 @@
     "opciones": [
       {
         "valor": 1,
-        "texto_es": "No existe",
-        "texto_en": "Does not exist",
+        "texto_es": "No existe ningún sistema de monitoreo sobre las cargas de trabajo en la nube",
+        "texto_en": "Does not exist monitoring system for cloud workloads.",
         "nivel_madurez": "Ad Hoc"
       },
       {
         "valor": 2,
-        "texto_es": "Existe pero no está formalizada ni actualizada",
-        "texto_en": "Exists but not formalized or updated",
+        "texto_es": "Se recopilan algunos logs, pero no se realiza un monitoreo continuo ni se revisan alertas",
+        "texto_en": "Some logs are collected, continuous monitoring is not performed and alerts are not reviewed.",
         "nivel_madurez": "Opportunistic"
       },
       {
         "valor": 3,
-        "texto_es": "Existe y está parcialmente implementada",
-        "texto_en": "Exists and partially implemented",
+        "texto_es": "Monitoreo parcial o manual; no cubre todas las cargas ni se automatiza",
+        "texto_en": "Partial or manual monitoring; does not cover all loads nor is it automated",
         "nivel_madurez": "Repeatable"
       },
       {
         "valor": 4,
-        "texto_es": "Formalizada, revisada periódicamente",
-        "texto_en": "Formalized and reviewed periodically",
+        "texto_es": "Sí, hay monitoreo activo, pero limitado a ciertos aspectos",
+        "texto_en": "Yes, there is active monitoring, limited to certain aspects.",
         "nivel_madurez": "Managed"
       },
       {
         "valor": 5,
-        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
-        "texto_en": "Fully aligned to international standards and actively managed",
+        "texto_es": "Sí, existe monitoreo continuo integral con alertas automáticas",
+        "texto_en": "Yes, there is comprehensive continuous monitoring with automatic alerts.",
         "nivel_madurez": "Optimized"
       }
     ]
@@ -159,32 +159,32 @@
     "opciones": [
       {
         "valor": 1,
-        "texto_es": "No existe",
-        "texto_en": "Does not exist",
+        "texto_es": "No se realizan auditorías de cumplimiento ni internas ni externas",
+        "texto_en": "No internal or external compliance audits are performed.",
         "nivel_madurez": "Ad Hoc"
       },
       {
         "valor": 2,
-        "texto_es": "Existe pero no está formalizada ni actualizada",
-        "texto_en": "Exists but not formalized or updated",
+        "texto_es": "Solo se realizan auditorías puntuales como reacción a incidentes o requerimientos regulatorios",
+        "texto_en": "Only ad hoc audits are carried out in response to incidents or regulatory requirements",
         "nivel_madurez": "Opportunistic"
       },
       {
         "valor": 3,
-        "texto_es": "Existe y está parcialmente implementada",
-        "texto_en": "Exists and partially implemented",
+        "texto_es": "Auditorías no recurrentes o no cubren todos los requisitos normativos y de seguridad",
+        "texto_en": "Audits that are not recurring or do not cover all regulatory and security requirements",
         "nivel_madurez": "Repeatable"
       },
       {
         "valor": 4,
-        "texto_es": "Formalizada, revisada periódicamente",
-        "texto_en": "Formalized and reviewed periodically",
+        "texto_es": "Se realizan auditorías periódicas, pero de manera parcial o limitada a algunos dominios",
+        "texto_en": "Periodic audits are carried out, but partially or limited to some domains",
         "nivel_madurez": "Managed"
       },
       {
         "valor": 5,
-        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
-        "texto_en": "Fully aligned to international standards and actively managed",
+        "texto_es": "Sí, se realizan auditorías de cumplimiento de forma programada (anual o semestral) abarcando todos los dominios críticos",
+        "texto_en": "Compliance audits are performed on a scheduled basis (annually or semi-annually) covering all critical domains",
         "nivel_madurez": "Optimized"
       }
     ]
