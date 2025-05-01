@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "pregunta_es": "¿Existe una política formal de ciberseguridad documentada y aprobada?",
-    "pregunta_en": "Is there a formal documented and approved cybersecurity policy?",
+    "pregunta_es": "¿Su organización mantiene implementadas y actualizadas políticas de ciberseguridad que cubren las áreas críticas definidas por estándares internacionales (NIST, ISO, COBIT)?",
+    "pregunta_en": "Does your organization maintain implemented and updated cybersecurity policies that cover the critical areas defined by international standards (NIST, ISO, COBIT)?",
     "tipo_de_riesgo": "ciberseguridad",
     "opciones": [
       {
