@@ -197,32 +197,32 @@
     "opciones": [
       {
         "valor": 1,
-        "texto_es": "No existe",
-        "texto_en": "Does not exist",
+        "texto_es": "Los informes financieros son manuales y no tienen controles de seguridad adecuados",
+        "texto_en": "Financial reports are manual and lack adequate security controls",
         "nivel_madurez": "Ad Hoc"
       },
       {
         "valor": 2,
-        "texto_es": "Existe pero no está formalizada ni actualizada",
-        "texto_en": "Exists but not formalized or updated",
+        "texto_es": "Los informes financieros son manuales, aunque existen controles de seguridad básicos",
+        "texto_en": "Financial reporting is manual, although basic security controls exist",
         "nivel_madurez": "Opportunistic"
       },
       {
         "valor": 3,
-        "texto_es": "Existe y está parcialmente implementada",
-        "texto_en": "Exists and partially implemented",
+        "texto_es": "Existen automatizaciones, aunque la seguridad de los informes financieros es baja o debil",
+        "texto_en": "Automation exists, although the security of financial reports is low or weak",
         "nivel_madurez": "Repeatable"
       },
       {
         "valor": 4,
-        "texto_es": "Formalizada, revisada periódicamente",
-        "texto_en": "Formalized and reviewed periodically",
+        "texto_es": "Los informes son parcialmente automatizados y seguros, aunque no abarcan todos los procesos",
+        "texto_en": "The reports are partially automated and secure, although they do not cover all processes",
         "nivel_madurez": "Managed"
       },
       {
         "valor": 5,
-        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
-        "texto_en": "Fully aligned to international standards and actively managed",
+        "texto_es": "Los informes financieros están totalmente automatizados, protegidos mediante cifrado y acceso controlado, y cumplen normativas",
+        "texto_en": "Financial reporting is fully automated, protected by encryption and controlled access, and compliant with regulations",
         "nivel_madurez": "Optimized"
       }
     ]
@@ -235,8 +235,8 @@
     "opciones": [
       {
         "valor": 1,
-        "texto_es": "No existe",
-        "texto_en": "Does not exist",
+        "texto_es": "No se lleva un inventario ni clasificación de activos en la nube",
+        "texto_en": "No inventory or classification of assets is maintained in the cloud",
         "nivel_madurez": "Ad Hoc"
       },
       {
