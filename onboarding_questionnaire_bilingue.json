@@ -241,26 +241,26 @@
       },
       {
         "valor": 2,
-        "texto_es": "Existe pero no está formalizada ni actualizada",
-        "texto_en": "Exists but not formalized or updated",
+        "texto_es": "Los activos están identificados de forma informal, sin clasificación clara ni registro estructurado",
+        "texto_en": "Assets are identified informally, without clear classification or structured record keeping",
         "nivel_madurez": "Opportunistic"
       },
       {
         "valor": 3,
-        "texto_es": "Existe y está parcialmente implementada",
-        "texto_en": "Exists and partially implemented",
+        "texto_es": "Existe un inventario parcial, sin clasificación formal o con actualizaciones esporádicas",
+        "texto_en": "There is a partial inventory, without formal classification or with sporadic updates",
         "nivel_madurez": "Repeatable"
       },
       {
         "valor": 4,
-        "texto_es": "Formalizada, revisada periódicamente",
-        "texto_en": "Formalized and reviewed periodically",
+        "texto_es": "El inventario no es completamente automatizado o no incluye todos los activos",
+        "texto_en": "The inventory is not fully automated or does not include all assets",
         "nivel_madurez": "Managed"
       },
       {
         "valor": 5,
-        "texto_es": "Totalmente alineada a estándares internacionales y gestionada",
-        "texto_en": "Fully aligned to international standards and actively managed",
+        "texto_es": "Existe un inventario automatizado y clasificado de todos los activos en la nube, actualizado regularmente",
+        "texto_en": "The inventory is automated and classified for all cloud assets, updated regularly.",
         "nivel_madurez": "Optimized"
       }
     ]
